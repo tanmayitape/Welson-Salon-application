@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Welson Salon</string>
+    <string name="Forgot_info">Please Provide your registered email for Verification</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="profile">Profile</string>
+    <string name="logout">Logout</string>
+    <string name="Fab">Fab</string>
+    <string name="address"><b><u>Welson Family Salon in Vasai East, Palghar, Mumbai</u></b></string>
+    <string name="Schedule_activity_header">Schedule an appointment</string>
+    <string name="Schedule_activity_disc">Select the best options to your next appointment at Welson Salon and don\'t worry about anything else!</string>
+
+    <string name="about_us"> Select the best options to your next appointment at Welson Salon and don\'t worry about anything else!
+\n\n<b><u>Salons</u></b>\n
+Who doesn\'t like looking at their best? This is especially true when there is a special day around the corner or simply when you need to look presentable for an event. Salons, also known as beauty salons or beauty parlours, is a facility or establishment that provides beauty treatments to both women and men. If you are looking for a makeover or any cosmetic treatment, you can choose from a range of various salons available in Palghar.
+\nWe highly recommend you to pay a visit to Welson Family Salon in Vasai East, Palghar as they are considered one of the best salons in Palghar.
+\nYou can avail an array of beauty service at beauty parlours in Palghar, Mumbai, right from skincare and hair care, to manicure, pedicure, waxing, threading, and makeup.
+\nWelson Family Salon in Vasai East, Palghar, Mumbai is a one-stop beauty destination for all your self-pampering needs. Among the many Salons, in the city, it offers a wide range of beauty services. Ever since its establishment in 2011, Welson Family Salon has been delivering top-notch services to their clients.
+\n\n<b><u>Products or Services offered:</u></b>
+\nAlso listed in Salons, Beauty Parlours, Beauty Salons For Men, Men Beauty Parlours, Beauty Salons etc. Welson Family Salon in Vasai East is one of the most trustworthy names in the field. To make the transactional experience hassle-free for customers, they accept multiple modes of payment such as Cash, Master Card, Visa Card, Debit Cards, Cheques, Credit Card. The best time to contact them is anytime between 08:00 - 13:00.
+\nKindly scroll up to check the detailed address and contact number of Welson Family Salon in Palghar, Mumbai.
+
+
+
+</string>
+
+    <string-array name="select_complaints">
+        <item>Select service</item>
+        <item>Doubts</item>
+        <item>Compliment</item>
+        <item>Help</item>
+        <item>Complaint</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="spinner_for_service">
+        <item>Select Service</item>
+        <item>Haircut</item>
+        <item>Senior Cut</item>
+        <item>Face Massage</item>
+        <item>Head Massage</item>
+        <item>Children Cut</item>
+        <item>Beard Trim</item>
+        <item>Shave And Haircut </item>
+    </string-array>
+    <string-array name="spinner_for_barber">
+        <item>Select Barber</item>
+        <item>Employee1</item>
+        <item>Employee2</item>
+        <item>Employee3</item>
+    </string-array>
+    <string name="title_activity_locate_shop">LocateShopActivity</string>
+    <string name="userimage">UserImage</string>
+    <string name="pro_des">     Also listed in Salons, Beauty Parlours, Beauty Salons For Men, Men Beauty Parlours, Beauty Salons etc. Welson Family Salon in Vasai East is one of the most trustworthy names in the field. To make the transactional experience hassle-free for customers, We accept multiple modes of payment such as Cash, Master Card, Visa Card, Debit Cards, Cheques, Credit Card. The best time to contact them is anytime between <b>08:00 - 13:00</b>.</string>
+    <string name="salon_des">     Who doesn\'t like looking at their best? This is especially true when there is a special day around the corner or simply when you need to look presentable for an event. Salons, also known as beauty salons or beauty parlours, is a facility or establishment that provides beauty treatments to both women and men. If you are looking for a makeover or any cosmetic treatment, you can choose us.
+\<n></n>We highly recommend you to pay a visit to Welson Family Salon in Vasai East, Palghar as we considered as one of the best salons in Palghar.
+\nYou can avail an array of beauty service at beauty parlours in Palghar, Mumbai, right from skincare and hair care, to manicure, pedicure, waxing, threading, and makeup.
+\nEver since its establishment in 2011, Welson Family Salon has been delivering top-notch services to their clients.
+\</string>
+    <string name="Appointmnet_des">Select the service and date from one of your scheduled appointmnent and check if it correct.If it isn\'t you can delete it.</string>
+    <string name="delete_appointment">delete \nAppointment</string>
+    <string name="title_activity_map">map</string>
+</resources>

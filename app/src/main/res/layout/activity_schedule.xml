@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_welcome"
+    tools:context=".Schedule_activity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appBarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <include
+                android:id="@+id/schedule_toolbar"
+                layout="@layout/app_toolbar" />
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <TextView
+            android:id="@+id/gg"
+            android:layout_width="392dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="sans-serif-thin"
+            android:text="@string/Schedule_activity_disc"
+            android:textColor="#616161"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:fontFamily="sans-serif-thin"
+            android:text="@string/Schedule_activity_header"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.144"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/appBarLayout" />
+
+        <ImageView
+            android:id="@+id/select_service"
+            android:layout_width="59dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="9dp"
+            android:contentDescription="select service"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/spinner_for_service"
+            app:srcCompat="@drawable/select_service"
+            tools:ignore="HardcodedText" />
+
+        <Spinner
+            android:id="@+id/spinner_for_service"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="40dp"
+            android:entries="@array/spinner_for_service"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/select_service"
+            app:layout_constraintTop_toBottomOf="@+id/gg" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Price :  "
+            android:layout_marginStart="8dp"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/Price_textView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/Price_textView"
+            tools:ignore="HardcodedText,TextSizeCheck" />
+
+        <ImageView
+            android:id="@+id/barber_professional_icon"
+            android:layout_width="59dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="12dp"
+            android:contentDescription="barber_Icon"
+            app:layout_constraintBottom_toBottomOf="@+id/spinner_for_barber"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/spinner_for_barber"
+            app:srcCompat="@drawable/barber_pro"
+            tools:ignore="HardcodedText" />
+
+        <Spinner
+            android:id="@+id/spinner_for_barber"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="28dp"
+            android:entries="@array/spinner_for_barber"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/barber_professional_icon"
+            app:layout_constraintTop_toBottomOf="@+id/Price_textView" />
+
+        <ImageView
+            android:id="@+id/date"
+            android:layout_width="59dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="12dp"
+            android:contentDescription="Date_icon"
+            app:layout_constraintBottom_toBottomOf="@+id/spinner_for_date"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/spinner_for_date"
+            app:srcCompat="@drawable/date"
+            tools:ignore="HardcodedText" />
+
+        <Spinner
+            android:id="@+id/spinner_for_date"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="24dp"
+            android:entries="@array/spinner_for_service"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/date"
+            app:layout_constraintTop_toBottomOf="@+id/spinner_for_barber" />
+
+        <ImageView
+            android:id="@+id/time"
+            android:layout_width="59dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="12dp"
+            android:contentDescription="time_Icon"
+            app:layout_constraintBottom_toBottomOf="@+id/spinner_for_time"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/spinner_for_time"
+            app:srcCompat="@drawable/time"
+            tools:ignore="HardcodedText" />
+
+        <Spinner
+            android:id="@+id/spinner_for_time"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="24dp"
+            android:entries="@array/spinner_for_service"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/time"
+            app:layout_constraintTop_toBottomOf="@+id/spinner_for_date" />
+
+        <Button
+            android:id="@+id/add_appointment"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="9dp"
+            android:layout_marginTop="20dp"
+            android:text="ADD APPOINTMENT"
+            app:circularflow_radiusInDP="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.888"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spinner_for_time"
+            tools:ignore="HardcodedText,VisualLintButtonSize" />
+
+        <TextView
+            android:id="@+id/Price_textView"
+            android:layout_width="309dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="21dp"
+            android:text="price ruppes"
+            android:gravity="center|left"
+            android:textColor="#393939"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView2"
+            app:layout_constraintTop_toBottomOf="@+id/spinner_for_service" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>

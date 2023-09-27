@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_welcome"
+    tools:context=".About_us_activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appBarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include
+                android:id="@+id/about_us_toolbar"
+                layout="@layout/app_toolbar"
+                app:layout_scrollFlags="enterAlways|scroll"/>
+        </com.google.android.material.appbar.AppBarLayout>
+
+<!--        <ImageView-->
+<!--            android:id="@+id/imageView5"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            app:srcCompat="@drawable/salon_logo"-->
+<!--            android:contentDescription="logo image" />-->
+
+
+        <TextView
+            android:id="@+id/logo_text"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-thin"
+            android:text="Welson Salon"
+            android:textAlignment="center"
+            android:textColor="#0C0101"
+            android:textSize="60sp"
+            android:transitionName="logo_head"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/App_Logo"
+            tools:ignore="HardcodedText,TextSizeCheck,VisualLintBounds" />
+
+
+<!--        <TextView-->
+<!--            android:id="@+id/slogan_text"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:fontFamily="sans-serif-thin"-->
+<!--            android:text="Your style is our responsibility"-->
+<!--            android:textColor="#050101"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:textSize="20sp"-->
+<!--            android:textStyle="bold"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/logo_text"-->
+<!--            tools:ignore="HardcodedText" />-->
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="About us"-->
+<!--            android:gravity="center"-->
+<!--            android:layout_marginTop="0dp"-->
+<!--            android:fontFamily="sans-serif"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="30sp" />-->
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_margin="8dp"-->
+<!--            android:fontFamily="sans-serif-light"-->
+<!--            android:gravity="center"-->
+<!--            android:text="@string/address"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="30sp" />-->
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select the best options to your next appointment at Welson Salon and don\'t worry about anything else!"
+            android:textSize="22sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/black"
+            tools:ignore="VisualLintLongText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Salons"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/black"
+            tools:ignore="VisualLintLongText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/salon_des"
+            android:textSize="15sp"
+            android:justificationMode="inter_word"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/black"
+            tools:ignore="VisualLintLongText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Products or Services offered:"
+            android:textSize="30sp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="8dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/black"
+            tools:ignore="VisualLintLongText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pro_des"
+            android:textSize="15sp"
+            android:justificationMode="inter_word"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/black"
+            tools:ignore="VisualLintLongText" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
